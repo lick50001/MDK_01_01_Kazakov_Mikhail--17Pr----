@@ -23,6 +23,18 @@ namespace Pizza_Kazakov
         public MainWindow()
         {
             InitializeComponent();
+            localPath = System.IO.Directory.GetCurrentDirectory();
+
+            OpenPages(pages.main);
+        }
+
+        public enum pages{
+            main
+        }
+
+        public void OpenPages(pages _pages){
+            if (_pages == pages.main)
+                frame.Navigate(new Layouts.Main(this));
         }
     }
 }
