@@ -20,6 +20,7 @@ namespace Pizza_Kazakov
     /// </summary>
     public partial class MainWindow : Window
     {
+        public string localPath;
         public MainWindow()
         {
             InitializeComponent();
@@ -34,7 +35,7 @@ namespace Pizza_Kazakov
 
         public void OpenPages(pages _pages){
             if (_pages == pages.main)
-                frame.Navigate(new Layouts.Main(this));
+                frame.Navigate(new Main(this));
         }
     }
 }

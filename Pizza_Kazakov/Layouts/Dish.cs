@@ -25,7 +25,7 @@ namespace Pizza_Kazakov
             public int price;
             public int wes;
 
-            public int coutOrder;
+            public int countOrder;
             public bool orders;
         }
 

@@ -13,8 +13,8 @@
             <Grid.Resources>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="White"/>
-                    <Setter Property="Background" Value="#FFDD3333"/>
-                    <Setter Property="Background" Value="White"/>
+                    <Setter Property="Foreground" Value="#FFDD3333"/>
+                    <Setter Property="BorderBrush" Value="White"/>
                 </Style>
             </Grid.Resources>
 
@@ -29,13 +29,13 @@
             <Grid.Resources>
                 <Style TargetType="{x:Type Button}">
                     <Setter Property="Background" Value="#FFdd3333"/>
-                    <Setter Property="Background" Value="#FFFFFFFF"/>
-                    <Setter Property="Background" Value="#FFdd3333"/>
+                    <Setter Property="Foreground" Value="#FFFFFFFF"/>
+                    <Setter Property="BorderBrush" Value="#FFdd3333"/>
                 </Style>
                 <Style TargetType="{x:Type TextBox}">
                     <Setter Property="Background" Value="White"/>
-                    <Setter Property="Background" Value="#FFdd3333"/>
-                    <Setter Property="Background" Value="White"/>
+                    <Setter Property="Foreground" Value="#FFdd3333"/>
+                    <Setter Property="BorderBrush" Value="White"/>
                 </Style>
             </Grid.Resources>
             <ScrollViewer Margin="10 10 10 10">
@@ -44,8 +44,8 @@
                     <Grid Height="100" Background="#FFECECEC">
                         <Image Source="/Pizza_Kazakov;component/Layouts/icon.png" HorizontalAlignment="Left" Height="50" Margin="10 10 0 -10"
                                VerticalAlignment="Top" Width="50"/>
-                        <Label Content="Постный салат панцелла со сладким перцем" HorizontalAlignment="Left"
-                               Margin="65 0 0 0" VerticalAlignment="Top"/>
+                        <Label Content="Постный салат панцелла со сладким перцем" HorizontalAlignment="Left" Margin="65 0 0 0" 
+                               VerticalAlignment="Top" FontWeight="Bold"/>
                         <Label Content="Помидоры, огурцы, болгарский перец, салат Романо, лук репка, гренки" HorizontalAlignment="Left"
                                Margin="65 20 0 0" VerticalAlignment="Top"/>
                         <Button Content="-" HorizontalAlignment="Right" Margin="0 0 103.6 10" VerticalAlignment="Bottom" Width="19"/>
@@ -58,7 +58,7 @@
                                 Background="White" Foreground="#FFDD3333"/>
                         <Button Content="30 см." HorizontalAlignment="Right" Margin="0 10 59.6 0" VerticalAlignment="Top" Width="45"/>
                         <Button Content="40 см." HorizontalAlignment="Right" Margin="0 10 9.6 0" VerticalAlignment="Top" Width="45"/>
-                        <Label Content="Помидоры, огурцы, болгарский перец, салат Романо, лук репка, гренк" HorizontalAlignment="Left"
+                        <Label Content="Помидоры, огурцы, болгарский перец, салат Романо, лук репка, гренки" HorizontalAlignment="Left"
                                Margin="65 40 0 0" VerticalAlignment="Top"/>
                         <CheckBox Content="Выбрать" HorizontalAlignment="Right" Margin="0 0 128 13" VerticalAlignment="Bottom"/>
                     </Grid>

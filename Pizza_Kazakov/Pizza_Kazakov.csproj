@@ -131,7 +131,9 @@
     <Resource Include="Layouts\dish\img-8.png" />
     <Resource Include="Layouts\dish\img-9.png" />
     <Resource Include="Layouts\icon%28white%29.png" />
-    <Resource Include="Layouts\icon.png" />
+    <Content Include="Layouts\icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
